@@ -2,6 +2,9 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
+import Home from '@/components/Home'
+import Itunes from '@/components/Itunes'
+import Mytunes from '@/components/Mytunes'
 
 /* eslint-disable no-new */
 new Vue({
