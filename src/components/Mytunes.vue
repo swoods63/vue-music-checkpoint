@@ -14,10 +14,10 @@
         </div>
         <!--<div class="col-lg-1">
           <p>{{song.collectionName}}</p>
-        </div>-->
         </div>
         <div class="col-lg-1">
           <p>{{song.primaryGenreName}}</p>
+        </div>-->
         <div class="col-lg-1">
           <audio controls>
             <source :src="song.previewUrl" type="audio/ogg">
@@ -28,8 +28,8 @@
         <button class="btn btn-default btn-sm" @click="promoteTrack(song)">
           <span class="glyphicon glyphicon-arrow-up"></span>
           </button>
-          <!--</span>
-          <span>-->
+          </span>
+          <span>
         <button class="btn btn-default btn-sm" @click="demoteTrack(song)">
           <span class="glyphicon glyphicon-arrow-down"></span>
           </button>
