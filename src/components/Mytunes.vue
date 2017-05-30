@@ -1,7 +1,7 @@
 <template>
 
 
-  <div class="component">
+  <div class="component"> 
     <div class="container">
       <div class="row" v-for="song in songs" :key="song.trackId">
         <div class="row">
@@ -12,7 +12,6 @@
             <p>{{song.artistName}}</p>
             <p>{{song.primaryGenreName}}</p>
           </div>
-
           <div class="col-xs-2">
             <p>{{song.trackName}}</p>
             <button class="btn btn-default btn-sm" @click="promoteTrack(song)">
