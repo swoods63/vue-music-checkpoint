@@ -8,16 +8,13 @@
           <div class=" delete col-xs-1"><img :src="song.artworkUrl60">
             <button @click="removeTrack(song)">X</button>
           </div>
-          <div class="col-xs-2">
+          <div class="col-xs-1">
             <p>{{song.artistName}}</p>
             <p>{{song.primaryGenreName}}</p>
           </div>
 
           <div class="col-xs-2">
             <p>{{song.trackName}}</p>
-          </div>
-
-          <div class="col-xs-2">
             <button class="btn btn-default btn-sm" @click="promoteTrack(song)">
           <span class="glyphicon glyphicon-arrow-up"></span>
           </button>
@@ -25,6 +22,9 @@
         <button class="btn btn-default btn-sm" @click="demoteTrack(song)">
           <span class="glyphicon glyphicon-arrow-down"></span>
           </button>
+          </div>
+
+          <div class="col-xs-2">
           </div>
         </div>
 

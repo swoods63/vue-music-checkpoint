@@ -3,9 +3,9 @@
     <div class="row">
       <!-- YOU WILL PROBABLY END UP WITH SOMETHING LIKE THIS -->
        <h1>Itunes Music</h1>
-      <Itunes class="itunes col-xs-6 iTunes"></Itunes>    
+      <Itunes class="itunes col-xs-8 iTunes"></Itunes>    
      <h1 class="myMusicTitle">Mytunes Music</h1>
-      <Mytunes class="mytunes col-xs-6 my-Tunes"></Mytunes>
+      <Mytunes class="mytunes col-xs-4 my-Tunes"></Mytunes>
      
     </div>
   </div>  
