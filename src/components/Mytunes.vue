@@ -2,7 +2,6 @@
   <div class="component">
     <div class="container">
       <div class="row" v-for="song in songs" :key="song.trackId">
-
         <div class="col-lg-1">
           <img :src="song.artworkUrl60"></div>
         <div class="col-lg-1">
@@ -18,22 +17,23 @@
         <div class="col-lg-1">
           <p>{{song.primaryGenreName}}</p>
         </div>-->
-        <div class="col-lg-1">
+        <div class="col-lg-2">
           <audio controls>
             <source :src="song.previewUrl" type="audio/ogg">
           </audio>
+          <div class= "row">
+
+          <button @click="removeTrack(song)">X</button> 
           <br>
-          <button @click="removeTrack(song)">X</button>
-          <span>
         <button class="btn btn-default btn-sm" @click="promoteTrack(song)">
           <span class="glyphicon glyphicon-arrow-up"></span>
           </button>
-          </span>
-          <span>
+        
         <button class="btn btn-default btn-sm" @click="demoteTrack(song)">
           <span class="glyphicon glyphicon-arrow-down"></span>
           </button>
-          </span>
+        
+          </div>
 
         </div>
       </div>
@@ -79,8 +79,6 @@
 
 
 <style scoped>
-.mytunes {
-    min-height: 200px;
-    background: purple;
-  }
+
+
 </style>

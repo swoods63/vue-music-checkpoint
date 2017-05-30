@@ -1,3 +1,4 @@
+
 <template>
     <div class="itunes">
     <div class="row">
@@ -17,11 +18,11 @@
           <div class="row">
             <div class="col-xs-2"><img :src="song.artworkUrl60">
             </div>
-            <div class="col-xs-3">
+            <div class="col-xs-4">
               <p>{{song.artistName}}</p>
                <p>{{song.primaryGenreName}}</p>
             </div>
-            <div class="col-xs-5">
+            <div class="col-xs-4">
               <p>{{song.trackName}}</p>
                <p>{{song.collectionName}}</p>
             </div>
