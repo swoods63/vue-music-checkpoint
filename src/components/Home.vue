@@ -3,9 +3,9 @@
     <div class="row">
       <!-- YOU WILL PROBABLY END UP WITH SOMETHING LIKE THIS -->
        <h1>Itunes Music</h1>
-      <Itunes class="itunes col-xs-7 iTunes"></Itunes>    
+      <Itunes class="itunes col-xs-6 iTunes"></Itunes>    
      <h1 class="myMusicTitle">Mytunes Music</h1>
-      <Mytunes class="mytunes w3-col-xs-5 my-Tunes"></Mytunes>
+      <Mytunes class="mytunes col-xs-6 my-Tunes"></Mytunes>
      
     </div>
   </div>  
@@ -41,8 +41,14 @@ $(function () {
 
 <style>
   .mytunes {
-    min-height: 500px;
+    min-height: 200px;
     background: purple;
+    color: white;
+  }
+
+  .myMusicTitle {
+    background: blue;
+    color: white;
   }
 
   .itunes {
