@@ -17,7 +17,6 @@
             <button class="btn btn-default btn-sm" @click="promoteTrack(song)">
           <span class="glyphicon glyphicon-arrow-up"></span>
           </button>
-
         <button class="btn btn-default btn-sm" @click="demoteTrack(song)">
           <span class="glyphicon glyphicon-arrow-down"></span>
           </button>
